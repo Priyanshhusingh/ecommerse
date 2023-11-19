@@ -1,0 +1,17 @@
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animated-form {
+    animation: fadeInUp 0.5s ease-in-out;
+  }
+  
+  /* Additional styles can be added here */
+  
